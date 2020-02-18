@@ -10,6 +10,8 @@ import HomePage from './components/HomePage';
 import GenresPage from './components/GenresPage';
 import RockGenre from './components/Genres/RockGenre';
 import PopGenre from './components/Genres/PopGenre';
+import BollywoodGenre from './components/Genres/BollwoodGenre';
+import CountryGenre from './components/Genres/CountryGenre';
 
 function App() {
   return (
@@ -19,8 +21,8 @@ function App() {
         <Route exact path="/genres" component={GenresPage} />
         <Route exact path="/rock" component={RockGenre} />
         <Route exact path="/pop" component={PopGenre} />
-        {/* // <Route exact path="/bollywood" component={GenresPage} />
-        // <Route exact path="/country" component={GenresPage} /> */}
+        <Route exact path="/bollywood" component={BollywoodGenre} />
+        <Route exact path="/country" component={CountryGenre} />
       </Switch>
     </Router>
 

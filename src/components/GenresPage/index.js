@@ -39,11 +39,11 @@ function GenresPage(props) {
 
         <div className="genresRowTwo">
 
-          {/* <img src="./006-amplifier.png" height="100" width="100" />
+          <img src="./006-amplifier.png" height="100" width="100" />
           <Link to="/bollywood"><button type="button">bollywood</button></Link>
 
           <img src="./012-electric guitar.png" height="100" width="100" />
-          <Link to="country"><button type="button">country</button></Link> */}
+          <Link to="country"><button type="button">country</button></Link>
 
         </div>
 

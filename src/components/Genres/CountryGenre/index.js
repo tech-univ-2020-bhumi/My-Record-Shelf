@@ -4,21 +4,21 @@ import propTypes from 'prop-types';
 import getRecord from '../../getRecords';
 import useRecords from '../../../hooks/useRecords';
 
-function BollywoodGenre(props) {
+function CountryGenre(props) {
   const { testId } = props;
   const [records, getRecords] = useRecords();
-  const bollywoodArr = getRecord('bollywood', records);
-  console.log(bollywoodArr);
+  const countryArr = getRecord('country', records);
+  console.log(countryArr);
   return (
     <div data-testid={testId}>
-      <div>bollywood</div>
+      <div>country</div>
       <div />
     </div>
   );
 }
 
-BollywoodGenre.propTypes = {
+CountryGenre.propTypes = {
   testId: propTypes.func.isRequired,
 };
 
-export default BollywoodGenre;
+export default CountryGenre;
