@@ -12,6 +12,13 @@ exports[`The homePage component should render correctly 1`] = `
       :((
       <br />
       seems a bit empty in here...
+      <div>
+        <button
+          type="button"
+        >
+          sync
+        </button>
+      </div>
     </div>
   </div>
 </DocumentFragment>

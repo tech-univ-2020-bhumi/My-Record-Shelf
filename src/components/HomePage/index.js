@@ -1,6 +1,8 @@
 /* eslint-disable react/jsx-filename-extension */
 import React from 'react';
 import propTypes from 'prop-types';
+import { Link } from 'react-router-dom';
+import SyncButton from '../SyncButton';
 //  import { FaHeart } from "react-icons/fa";
 
 function HomePage(props) {
@@ -12,6 +14,9 @@ function HomePage(props) {
         :((
         <br />
         seems a bit empty in here...
+        {/* <Link to="/genres"> */}
+        <div><SyncButton /></div>
+        {/* </Link> */}
       </div>
     </div>
 

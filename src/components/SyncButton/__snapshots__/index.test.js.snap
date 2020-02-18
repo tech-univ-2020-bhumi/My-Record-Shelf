@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The SyncButton component should render correctly 1`] = `
+<DocumentFragment>
+  <button
+    data-testid="123"
+    type="button"
+  >
+    sync
+  </button>
+</DocumentFragment>
+`;
