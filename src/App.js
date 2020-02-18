@@ -8,6 +8,7 @@ import {
 } from 'react-router-dom';
 import HomePage from './components/HomePage';
 import GenresPage from './components/GenresPage';
+import RockGenre from './components/Genres/RockGenre';
 
 function App() {
   return (
@@ -15,6 +16,10 @@ function App() {
       <Switch>
         <Route exact path="/" component={HomePage} />
         <Route exact path="/genres" component={GenresPage} />
+        <Route exact path="/rock" component={RockGenre} />
+        {/* <Route exact path="/pop" component={GenresPage} />
+        <Route exact path="/bollywood" component={GenresPage} />
+        <Route exact path="/country" component={GenresPage} /> */}
       </Switch>
     </Router>
 
