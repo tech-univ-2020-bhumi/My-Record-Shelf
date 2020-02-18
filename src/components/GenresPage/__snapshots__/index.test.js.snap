@@ -4,6 +4,62 @@ exports[`The GenresPage component should render correctly 1`] = `
 <DocumentFragment>
   <div
     data-testid="123"
-  />
+  >
+    <div>
+      genres
+    </div>
+    <div
+      class="genresRows"
+    >
+      <div
+        class="genresRowOne"
+      >
+        <img
+          height="100"
+          src="./001-guitar.png"
+          width="100"
+        />
+        <button
+          type="button"
+        >
+          rock
+        </button>
+        <img
+          height="100"
+          src="./049-singer.png"
+          width="100"
+        />
+        <button
+          type="button"
+        >
+          pop
+        </button>
+      </div>
+      <div
+        class="genresRowTwo"
+      >
+        <img
+          height="100"
+          src="./006-amplifier.png"
+          width="100"
+        />
+        <button
+          type="button"
+        >
+          bollywood
+        </button>
+        <img
+          height="100"
+          src="./012-electric guitar.png"
+          width="100"
+        />
+        <button
+          type="button"
+        >
+          country
+        </button>
+      </div>
+    </div>
+  </div>
 </DocumentFragment>
 `;
