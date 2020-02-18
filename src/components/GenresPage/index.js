@@ -20,19 +20,6 @@ function GenresPage(props) {
 //   const [records, setRecords] = useRecords();
   const { testId } = props;
 
-  //   const rockArr = getGenresArray('rock', records);
-  //   //   console.log('Rooockkk', rockArr);
-
-  //   const popArr = getGenresArray('pop', records);
-  //   //   console.log('Poppppp', popArr);
-
-  //   const bollywoodArr = getGenresArray('bollywood', records);
-  //   //   console.log('bollyyy', bollywoodArr);
-
-  //   const countryArr = getGenresArray('country', records);
-  //   //   console.log('coutrrry', countryArr);
-
-
   return (
     <div data-testid={testId}>
 
@@ -45,8 +32,8 @@ function GenresPage(props) {
           <img src="./001-guitar.png" height="100" width="100" />
           <Link to="/rock"><button type="button">rock</button></Link>
 
-          {/* <img src="./049-singer.png" height="100" width="100" />
-          <Link to="/pop"><button type="button">pop</button></Link> */}
+          <img src="./049-singer.png" height="100" width="100" />
+          <Link to="/pop"><button type="button">pop</button></Link>
 
         </div>
 

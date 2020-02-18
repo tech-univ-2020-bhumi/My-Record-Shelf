@@ -9,6 +9,7 @@ import {
 import HomePage from './components/HomePage';
 import GenresPage from './components/GenresPage';
 import RockGenre from './components/Genres/RockGenre';
+import PopGenre from './components/Genres/PopGenre';
 
 function App() {
   return (
@@ -17,9 +18,9 @@ function App() {
         <Route exact path="/" component={HomePage} />
         <Route exact path="/genres" component={GenresPage} />
         <Route exact path="/rock" component={RockGenre} />
-        {/* <Route exact path="/pop" component={GenresPage} />
-        <Route exact path="/bollywood" component={GenresPage} />
-        <Route exact path="/country" component={GenresPage} /> */}
+        <Route exact path="/pop" component={PopGenre} />
+        {/* // <Route exact path="/bollywood" component={GenresPage} />
+        // <Route exact path="/country" component={GenresPage} /> */}
       </Switch>
     </Router>
 

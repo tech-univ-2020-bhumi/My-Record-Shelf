@@ -1,23 +1,24 @@
+/* eslint-disable react/jsx-filename-extension */
 import React from 'react';
 import propTypes from 'prop-types';
 import getRecord from '../../getRecords';
 import useRecords from '../../../hooks/useRecords';
 
-function RockGenre(props) {
+function PopGenre(props) {
   const { testId } = props;
   const [records, getRecords] = useRecords();
-  const rockArr = getRecord('rock', records);
-  console.log(rockArr);
+  const popArr = getRecord('rock', records);
+  console.log(popArr);
   return (
-    <div>
-      <div>rock</div>
+    <div data-testid={testId}>
+      <div>pop</div>
       <div />
     </div>
   );
 }
 
-RockGenre.propTypes = {
+PopGenre.propTypes = {
   testId: propTypes.func.isRequired,
 };
 
-export default RockGenre;
+export default PopGenre;
