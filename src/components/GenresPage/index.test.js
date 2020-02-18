@@ -2,11 +2,11 @@
 /* eslint-disable no-undef */
 import React from 'react';
 import { render, fireEvent } from '@testing-library/react';
-import HomePage from './index';
+import GenresPage from './index';
 
-describe('The HomePage component', () => {
+describe('The GenresPage component', () => {
   it('should render correctly', () => {
-    const { asFragment } = render(<HomePage testId="123" />);
+    const { asFragment } = render(<GenresPage testId="123" />);
     expect(asFragment()).toMatchSnapshot();
   });
 });
