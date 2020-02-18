@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The BollywoodGenre component should render correctly 1`] = `
+<DocumentFragment>
+  <div
+    data-testid="123"
+  >
+    <div>
+      bollywood
+    </div>
+    <div />
+  </div>
+</DocumentFragment>
+`;
