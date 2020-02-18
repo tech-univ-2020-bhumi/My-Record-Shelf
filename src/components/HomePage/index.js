@@ -14,9 +14,9 @@ function HomePage(props) {
         :((
         <br />
         seems a bit empty in here...
-        {/* <Link to="/genres"> */}
-        <div><SyncButton /></div>
-        {/* </Link> */}
+        <Link to="/genres">
+          <div><SyncButton /></div>
+        </Link>
       </div>
     </div>
 

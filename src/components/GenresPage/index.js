@@ -5,7 +5,9 @@ import propTypes from 'prop-types';
 function GenresPage(props) {
   const { testId } = props;
   return (
-    <div data-testid={testId} />
+    <div data-testid={testId}>
+      <div>genres</div>
+    </div>
   );
 }
 

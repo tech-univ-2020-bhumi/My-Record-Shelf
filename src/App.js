@@ -7,14 +7,14 @@ import {
   Route,
 } from 'react-router-dom';
 import HomePage from './components/HomePage';
-// import GenresPage from './'
+import GenresPage from './components/GenresPage';
 
 function App() {
   return (
     <Router>
       <Switch>
         <Route exact path="/" component={HomePage} />
-        {/* <Route exact path="/genres" component={GenresPage} /> */}
+        <Route exact path="/genres" component={GenresPage} />
       </Switch>
     </Router>
 
