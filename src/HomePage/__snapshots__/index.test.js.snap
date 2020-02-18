@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The homePage component should render correctly 1`] = `
+<DocumentFragment>
+  <div
+    data-tetid="123"
+  >
+    <div>
+      My Record Shelf
+    </div>
+    <div>
+      :((
+      <br />
+      seems a bit empty in here...
+    </div>
+  </div>
+</DocumentFragment>
+`;
