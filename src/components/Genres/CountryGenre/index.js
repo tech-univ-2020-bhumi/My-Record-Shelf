@@ -4,6 +4,7 @@ import propTypes from 'prop-types';
 import { FaHeart } from 'react-icons/fa';
 import getRecord from '../../getRecords';
 import useRecords from '../../../hooks/useRecords';
+import './index.css';
 
 function CountryGenre(props) {
   const { testId } = props;
