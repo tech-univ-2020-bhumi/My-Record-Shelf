@@ -5,6 +5,10 @@ import propTypes from 'prop-types';
 import './index.css';
 import { Link } from 'react-router-dom';
 import useRecords from '../../hooks/useRecords';
+import guitar from './001-guitar.png';
+import singer from './049-singer.png';
+import amplifier from './006-amplifier.png';
+import electricGuitar from './electricGuitar.png';
 
 // const getGenresArray = (inputGenre, records) => {
 //   const arr = [];
@@ -23,27 +27,27 @@ function GenresPage(props) {
   return (
     <div data-testid={testId}>
 
-      <div>genres</div>
+      <div className="genres">genres</div>
 
       <div className="genresRows">
 
         <div className="genresRowOne">
 
-          <img src="./001-guitar.png" height="100" width="100" />
-          <Link to="/rock"><button type="button">rock</button></Link>
+          <img src={guitar} height="250" width="250" />
+          <Link to="/rock"><button type="button" className="rock">rock</button></Link>
 
-          <img src="./049-singer.png" height="100" width="100" />
-          <Link to="/pop"><button type="button">pop</button></Link>
+          <img src={singer} height="250" width="250" />
+          <Link to="/pop"><button type="button" className="pop">pop</button></Link>
 
         </div>
 
         <div className="genresRowTwo">
 
-          <img src="./006-amplifier.png" height="100" width="100" />
-          <Link to="/bollywood"><button type="button">bollywood</button></Link>
+          <img src={amplifier} height="250" width="250" />
+          <Link to="/bollywood"><button type="button" className="amplifier">bollywood</button></Link>
 
-          <img src="./012-electric guitar.png" height="100" width="100" />
-          <Link to="country"><button type="button">country</button></Link>
+          <img src={electricGuitar} height="250" width="250" />
+          <Link to="country"><button type="button" className="country">country</button></Link>
 
         </div>
 
